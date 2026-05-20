@@ -237,7 +237,3 @@ Check `backend/.env` and confirm:
 - Database name is `neighborhood_safety`
 - `DB_USERNAME` and `DB_PASSWORD` are correct
 - Migrations were run with `php artisan migrate --seed`
-
-### PHP shows MongoDB warning
-
-If PHP shows a warning about `mongodb`, this project still works because it does not use MongoDB. The warning comes from the local PHP configuration, not from this project.
